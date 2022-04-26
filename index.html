@@ -18,9 +18,9 @@
     <section id="infinite" class="text-white tm-font-big tm-parallax">     
       <div class="text-center tm-hero-text-container">
         <div class="tm-hero-text-container-inner">
-            <h2 class="tm-hero-title">useraid</h2>
-            <p class="tm-hero-subtitle">
-              Learning Resources
+            <h2 class="tm-hero-title"><span class="usertry">useraid</span></h2>
+            <p class="tm-hero-subtitle"><span class="usersub"></span>
+              
             </p>
         </div>        
       </div>
@@ -123,7 +123,20 @@
     <script src="js/easing.min.js"></script>
     <script src="js/jquery.singlePageNav.min.js"></script>     
     <script src="js/bootstrap.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
+      // var typed = new Typed(".usertry", {
+      //   strings: ["useraid "],
+      //   typeSpeed: 110,
+      //   backSpeed: 100,
+      //   loop: true
+      // })
+      var typed = new Typed(".usersub", {
+        strings: ["Learning Resources"],
+        typeSpeed: 70,
+        backSpeed: 100,
+        loop: true
+      })
 
       function getOffSet(){
         var _offset = 450;
