@@ -10,13 +10,13 @@ body {
 }
 a {
   transition: all 0.3s ease;
-  color: #38B;
+  color: rgb(255, 255, 255);
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #D40;
+  color: rgb(151, 151, 151);
 }
 
 a:focus {
@@ -63,7 +63,7 @@ blockquote {
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
   color: white;
-  background-color: #38B;
+  background-color: rgb(255, 255, 255);
 }
 
 /* Hero */
@@ -130,7 +130,7 @@ blockquote {
 
 .tm-hero-title {
   color: rgb(255, 255, 255);
-  font-size: 3.5rem;
+  font-size: 4rem;
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
@@ -227,7 +227,7 @@ blockquote {
   position: relative;
   float: left;
   overflow: hidden;
-  background: #3085a3;
+  background: #ffffff;
   text-align: center;
   cursor: pointer;
 }
@@ -392,7 +392,7 @@ figure.effect-honey:hover h2 i {
 }
 
 .tm-footer a:hover {
-	color: #9CF;
+	color: rgb(255, 255, 255);
 }
 
 .tm-footer-link {
@@ -401,7 +401,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-footer-link:hover,
 .tm-footer-link:focus {
-  color: #38B;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -471,7 +471,7 @@ p {
   }
 
   .tm-gallery-item {
-    color: #369;
+    color: rgb(255, 255, 255);
     margin: 0;
   }
 }
