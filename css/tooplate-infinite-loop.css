@@ -379,32 +379,6 @@ figure.effect-honey:hover h2 i {
   color: white;
 }
 
-.tm-footer {
-  position: absolute;
-  bottom: 35px;
-  left: 0;
-  right: 0;
-  padding: 0 15px;
-}
-
-.tm-footer a {
-	color: #fff;
-}
-
-.tm-footer a:hover {
-	color: rgb(255, 255, 255);
-}
-
-.tm-footer-link {
-  color: white;
-}
-
-.tm-footer-link:hover,
-.tm-footer-link:focus {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
 p {
   line-height: 1.9;
 }
