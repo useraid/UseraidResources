@@ -15,7 +15,7 @@
   </head>
   <body>    
     <!-- Hero section -->
-    <section id="infinite" class="text-white tm-font-big tm-parallax">     
+    <section id="infinite" class="text-white tm-font-big ">     
       <div class="text-center tm-hero-text-container">
         <div class="tm-hero-text-container-inner">
             <h2 class="tm-hero-title" title="My Github Profile"><a href="https://github.com/useraid/" target="_blank" rel="noopener noreferrer"><span class="usertry">useraid</span></a></h2>
@@ -105,36 +105,6 @@
         backSpeed: 100,
         loop: true
       })
-
-      function getOffSet(){
-        var _offset = 450;
-        var windowHeight = window.innerHeight;
-
-        if(windowHeight > 500) {
-          _offset = 400;
-        } 
-        if(windowHeight > 680) {
-          _offset = 300
-        }
-        if(windowHeight > 830) {
-          _offset = 210;
-        }
-
-        return _offset;
-      }
-
-      function setParallaxPosition($doc, multiplier, $object){
-        var offset = getOffSet();
-        var from_top = $doc.scrollTop(),
-          bg_css = 'center ' +(multiplier * from_top - offset) + 'px';
-        $object.css({"background-position" : bg_css });
-      }
-
-        // Handle window resize
-        window.addEventListener('resize', function(){
-          background_image_parallax($(".tm-parallax"), 0.30, true);
-        }, true);
-
         // Add smooth scrolling to all links
         // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
         $("a").on('click', function(event) {
