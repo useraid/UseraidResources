@@ -1,0 +1,8 @@
+Some things i would like to learn about in the future
+
+Kubernetes
+MySQL
+npm
+SQLite
+ssh
+Markdown
