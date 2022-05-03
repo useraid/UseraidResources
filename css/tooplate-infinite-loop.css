@@ -23,13 +23,6 @@ a:focus {
   outline: none;
 }
 
-.btn {
-  padding: 8px 32px;
-}
-
-.btn:hover {
-  background-color: #ced4da;
-}
 
 blockquote {
   font-size: 0.86em;
@@ -41,11 +34,6 @@ blockquote {
   padding-bottom: 40px;
 }
 
-.tm-content-box {
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
-
 .tm-text-primary {
   color: #37A;
 }
@@ -54,24 +42,10 @@ blockquote {
   font-size: 1.25rem;
 }
 
-.tm-btn-primary {
-  color: white;
-  background-color: #369;
-  padding: 14px 30px;
-}
-
-.tm-btn-primary:hover,
-.tm-btn-primary:focus {
-  color: white;
-  background-color: rgb(255, 255, 255);
-}
-
 /* Hero */
 
 #infinite {
 	background-color: rgb(0, 0, 0);
-  background-image: url(../img/infinite-loop-01.jpg);
-  background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
   position: relative;
@@ -79,41 +53,9 @@ blockquote {
 
 #gallery {
 	background-color: rgb(0, 0, 0);
-  background-image: url(../img/infinite-loop-01.jpg);
-  background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
   position: relative;
-}
-
-@media (min-height: 600px) and (min-width: 1920px) {
-  #infinite {
-    background-size: cover;
-  }
-}
-
-@media (min-height: 830px) {
-  #infinite {
-    background-position: center -210px;
-  }
-}
-
-@media (min-height: 680px) and (max-height: 829px) {
-  #infinite {
-    background-position: center -300px;
-  }
-}
-
-@media (min-height: 500px) and (max-height: 679px) {
-  #infinite {
-    background-position: center -400px;
-  }
-}
-
-@media (max-height: 499px) {
-  #infinite {
-    background-position: center -450px;
-  }
 }
 
 .tm-hero-text-container {
@@ -263,8 +205,6 @@ blockquote {
   height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
 .grid figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
@@ -383,17 +323,6 @@ p {
   line-height: 1.9;
 }
 
-@media (min-width: 768px) {
-  .tm-intro-text-container {
-    padding-left: 0px;
-  }
-
-  .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 30px;
-    padding-left: 30px;
-  }
-}
-
 @media (min-width: 1200px) {
   .container {
     max-width: 1275px;
@@ -405,27 +334,6 @@ p {
 
   .tm-container-contact {
     max-width: 1063px;
-  }
-}
-
-@media (max-width: 991px) {
-  .tm-intro-text-container {
-    padding-left: 15px;
-    padding-top: 30px;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .tm-intro-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .tm-btn-submit {
-    margin-left: 0;
-    margin-top: 20px;
   }
 }
 
