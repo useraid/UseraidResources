@@ -1,3 +1,5 @@
+Direct links to resources
+
 Android Basics in Kotlin    https://developer.android.com/courses/android-basics-kotlin/course
 Google Cloud                https://go.qwiklabs.com/hey-student
 Network Penetration Testing https://www.youtube.com/watch?v=3Kq1MIfTWCE
