@@ -6,3 +6,5 @@ npm
 SQLite
 ssh
 Markdown
+Ansible
+Esxi/Proxmox/OMV/TrueNAS
