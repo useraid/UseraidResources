@@ -1,6 +1,6 @@
 # Site deployment for Learning Resources
 
-Website : [useraid.github.io](https://useraid.github.io)
+Website : [https://useraid.github.io/UseraidResources/](https://useraid.github.io/UseraidResources/)
 
 I made this site for quick linking to few of my daily learning resources.
 
